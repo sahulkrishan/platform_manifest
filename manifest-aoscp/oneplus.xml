@@ -19,6 +19,6 @@
   <project name="kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="sahulkrishan" revision="oreo-mr1-release" />
 
   <!-- OnePlus Vendor -->
-  <project name="proprietary_vendor_oneplus" path="proprietary/vendor/oneplus" remote="codeworkx" revision="lineage-15.1" />
+  <project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="codeworkx" revision="lineage-15.1" />
 
 </manifest>
