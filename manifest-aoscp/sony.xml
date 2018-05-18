@@ -14,6 +14,7 @@
 	
 	<remote name="obsd39"
 		fetch="https://github.com/obsd39" />  
+
   <!-- ANC Quick Settings -->
 	<project name="packages_apps_ancquicksettings" path="packages/apps/ANCQuickSettings" remote="sahulkrishan" revision="master"/>
 	
@@ -50,5 +51,5 @@
         <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="omnirom" revision="android-8.0" />	
 
   <!-- Vendor -->
-	<project name="proprietary_vendor_sony" path="vendor/sony" remote="sahulkrishan" revision="oreo-mr1-release" />
+	<project name="proprietary_vendor_sony" path="vendor/sony" remote="obsd39" revision="cr-6.1" />
 </manifest>
