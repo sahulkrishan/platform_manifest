@@ -15,8 +15,14 @@
 	<remote name="obsd39"
 		fetch="https://github.com/obsd39" />  
 
-  <!-- ANC Quick Settings -->
+  <!-- ANC -->
 	<project name="packages_apps_ancquicksettings" path="packages/apps/ANCQuickSettings" remote="sahulkrishan" revision="master"/>
+	<remove-project name="hardware/qcom/audio-caf/msm8974">
+	<project name="hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8974" remote="sahulkrishan" revision="parfait-release-8974"/>
+
+  <!-- frameworks_av -->
+	<remove-project name="frameworks/av">
+	<project name="frameworks_av" path="frameworks/av" remote="sahulkrishan" revision="parfait-release"/>
 	
   <!-- kernel 3.4 -->
 	<project name="android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="cr" revision="cr-6.1" />
